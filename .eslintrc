@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "no-unused-vars": "warn",
+    "sort-keys": "warn",
+    "camelcase": "error",
+    "capitalized-comments": "off",
+    "class-methods-use-this": "error",
+    "block-scoped-var": "error",
+    "array-bracket-spacing": "error",
+    "array-callback-return": "error"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jquery": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ]
+}

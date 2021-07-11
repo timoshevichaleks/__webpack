@@ -1,0 +1,31 @@
+@import "~normalize.css";
+@import "fonts.css";
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+}
+
+.container {
+  padding: 20px 40px;
+  max-width: 1280px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.webpack-logo {
+  background-image: url(../assets/webpack.png);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.code {
+  color: darkred;
+}
