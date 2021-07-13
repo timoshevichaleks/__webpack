@@ -21,6 +21,7 @@ module.exports = {
     main: './index.jsx',
     stat: './stats.ts'
   },
+  target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: fileame('js'),
